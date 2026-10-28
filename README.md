@@ -32,6 +32,8 @@ The project uses three datasets:
 | `members_v3.csv` | Customer demographic and registration information |
 | `transactions_v2.csv` | Subscription and payment history |
 
+The raw CSV files are not included in this repository due to their size. They can be obtained from the [KKBOX Churn Prediction dataset on Kaggle](https://www.kaggle.com/competitions/kkbox-churn-prediction-challenge/data). Download the required files and place them in `Data/Raw/` before running the notebook.
+
 The analysis uses the labelled customer population as its base and enriches it with available demographic and transaction information.
 
 ## Analysis Performed
@@ -88,7 +90,7 @@ Customer Churn & Retention Analysis/
    pip install pandas numpy matplotlib seaborn jupyter
    ```
 
-4. Ensure the three CSV files are placed in `Data/Raw/`.
+4. Download the required CSV files from the dataset source above and place them in `Data/Raw/`.
 5. Open `Notebook/customer_churn_retention_analysis.ipynb` in Jupyter Notebook.
 6. Run the cells in order.
 
